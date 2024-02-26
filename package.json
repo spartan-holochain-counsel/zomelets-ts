@@ -1,0 +1,21 @@
+{
+  "name": "zomelets-ts",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@spartan-hc/holo-hash": "file:../../../projects-holo/holo-hash-js",
+    "@whi/weblogger": "file:../../../projects/js-weblogger",
+    "js-sha256": "^0.11.0"
+  }
+}
